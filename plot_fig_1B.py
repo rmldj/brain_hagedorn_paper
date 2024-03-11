@@ -79,7 +79,7 @@ plt.ylabel('S/N')
 plt.xlim(0, 0.7)
 plt.ylim(0, 0.7)
 plt.xticks(np.arange(8)/10)
-plt.legend()
+plt.legend(frameon=False)
 
 plt.gca().set_box_aspect(1)
 

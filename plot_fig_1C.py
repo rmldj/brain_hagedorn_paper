@@ -1,5 +1,4 @@
 import numpy as np
-import sys
 import matplotlib.pyplot as plt
 
 plt.rcParams.update({'font.size':18})
@@ -16,9 +15,6 @@ ind = np.argsort(counts)[::-1]
 
 ids = ids[ind]
 counts = counts[ind]
-
-print(ids[:10])
-print(counts[:10])
 
 maxn = 30
 ids = ids[:maxn]
