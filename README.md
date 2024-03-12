@@ -39,5 +39,5 @@ to reproduce Fig. 1B from the paper:
 ## Information on downloading and preprocessing
 
 The binarized data is obtained from 100 unrelated subjects from the Human Connectome Project Young Adult dataset  (https://www.humanconnectome.org/study/hcp-young-adult).
-In the folder `preprocessing_info/` we provide sample scripts showing how the data was downloaded and what steps where used to preprocess them. Note that these scripts are **NOT** ready to run and require editing with HCP login credentials and/or modifying appropriate paths.
+In the folder `preprocessing_info/` we provide sample scripts showing how the data was downloaded and what steps were used to preprocess them. Note that these scripts are **NOT** ready to run and require editing with HCP login credentials and/or modifying appropriate paths.
 
